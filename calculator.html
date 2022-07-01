@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/calcStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <table>
+            <tr>
+                <td colspan="4"><input id="output" type="text" placeholder="Result.."></td>
+            </tr>
+            <tr>
+                <td id="clear">C</td>
+                <td onclick="insertNumber(this)">/</td>
+                <td onclick="insertNumber(this)">*</td>
+                <td id="backspace"><-</td>
+            </tr>
+            <tr>
+                <td onclick="insertNumber(this)">7</td>
+                <td onclick="insertNumber(this)">8</td>
+                <td onclick="insertNumber(this)">9</td>
+                <td onclick="insertNumber(this)">-</td>
+            </tr>
+            <tr>
+                <td onclick="insertNumber(this)">4</td>
+                <td onclick="insertNumber(this)">5</td>
+                <td onclick="insertNumber(this)">6</td>
+                <td onclick="insertNumber(this)">+</td>
+            </tr>
+            <tr>
+                <td onclick="insertNumber(this)">1</td>
+                <td onclick="insertNumber(this)">2</td>
+                <td onclick="insertNumber(this)">3</td>
+                <td id="result" rowspan="2">=</td>
+            </tr>
+            <tr>
+                <td onclick="insertNumber(this)">%</td>
+                <td onclick="insertNumber(this)">0</td>
+                <td onclick="insertNumber(this)">.</td>
+            </tr>
+        </table>
+        <a id="back" href="index.html">Back To Portfolio</a>
+    </main>
+    <script src="../js/calculator.js"></script>
+</body>
+</html>
